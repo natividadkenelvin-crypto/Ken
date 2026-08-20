@@ -9,5 +9,5 @@ Partner Feedback
 
 Suggestions for Improvement
 1. Add a profile picture in the About Me section to make the page more personal.
-2. Add screenshots of the three projects so visitors can easily see the actual websites I created.
+2. Add screenshots of the three projects so visitors can easily see the actual websites you created.
 3. Shorten the project descriptions because some parts contain too much text and can be made easier to read.
