@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products | Lemonade Shop</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+
+        <a href="index.html" class="logo">
+            Lemon<span>ade</span>
+        </a>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="Products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+
+            <a href="cart.html" class="cart-btn">
+                🛒 Cart
+                <span id="cartCount">0</span>
+            </a>
+        </div>
+
+    </nav>
+</header>
+
+<!-- NOTIFICATION -->
+<div id="notification" class="notification"></div>
+
+<main>
+
+<section class="section">
+
+    <div class="section-title">
+
+        <p class="small-title">OUR MENU</p>
+
+        <h2>Our Products</h2>
+
+        <p>Choose your favorite refreshing drink.</p>
+
+    </div>
+
+    <div class="products">
+
+        <!-- 1 -->
+        <article class="product-card">
+
+            <img src="Classic Lemon.jpg"
+                 alt="Classic Lemonade">
+
+            <h3>Classic Lemonade</h3>
+
+            <p>
+                Our classic lemonade made with fresh
+                lemons and the perfect amount of sweetness.
+            </p>
+
+            <div class="product-bottom">
+                <strong>₱50</strong>
+
+                <button type="button"
+                        onclick="addToCart('Classic Lemonade', 50)">
+                    Buy
+                </button>
+            </div>
+
+        </article>
+
+
+        <!-- 2 -->
+        <article class="product-card">
+
+            <img src="Strawberry-Lemonade-8.jpg"
+                 alt="Strawberry Lemonade">
+
+            <h3>Strawberry Lemonade</h3>
+
+            <p>
+                A delicious combination of fresh
+                strawberries and refreshing lemonade.
+            </p>
+
+            <div class="product-bottom">
+                <strong>₱65</strong>
+
+                <button type="button"
+                        onclick="addToCart('Strawberry Lemonade', 65)">
+                    Buy
+                </button>
+            </div>
+
+        </article>
+
+
+        <!-- 3 -->
+        <article class="product-card">
+
+            <img src="Orangge lemon(3).jpg"
+                 alt="Orange Lemonade">
+
+            <h3>Orange Lemonade</h3>
+
+            <p>
+                A citrusy and refreshing drink made
+                with orange and fresh lemonade.
+            </p>
+
+            <div class="product-bottom">
+                <strong>₱60</strong>
+
+                <button type="button"
+                        onclick="addToCart('Orange Lemonade', 60)">
+                    Buy
+                </button>
+            </div>
+
+        </article>
+
+
+        <!-- 4 -->
+        <article class="product-card">
+
+            <img src="bluberry.jpg"
+                 alt="Blueberry Lemonade">
+
+            <h3>Blueberry Lemonade</h3>
+
+            <p>
+                Sweet blueberries mixed with our
+                refreshing homemade lemonade.
+            </p>
+
+            <div class="product-bottom">
+                <strong>₱70</strong>
+
+                <button type="button"
+                        onclick="addToCart('Blueberry Lemonade', 70)">
+                    Buy
+                </button>
+            </div>
+
+        </article>
+
+
+        <!-- 5 -->
+        <article class="product-card">
+
+            <img src="mangolemonade.jpg"
+                 alt="Mango Lemonade">
+
+            <h3>Mango Lemonade</h3>
+
+            <p>
+                Sweet and tropical mango blended
+                with our refreshing lemonade.
+            </p>
+
+            <div class="product-bottom">
+                <strong>₱65</strong>
+
+                <button type="button"
+                        onclick="addToCart('Mango Lemonade', 65)">
+                    Buy
+                </button>
+            </div>
+
+        </article>
+
+
+        <!-- 6 -->
+        <article class="product-card">
+
+            <img src="lychee lemon jpg.jpg"
+                 alt="Lychee Lemonade">
+
+            <h3>Lychee Lemonade</h3>
+
+            <p>
+                A sweet and fruity lychee drink
+                mixed with refreshing lemonade.
+            </p>
+
+            <div class="product-bottom">
+                <strong>₱70</strong>
+
+                <button type="button"
+                        onclick="addToCart('Lychee Lemonade', 70)">
+                    Buy
+                </button>
+            </div>
+
+        </article>
+
+
+        <!-- 7 -->
+        <article class="product-card">
+
+            <img src="green apple lemon.jpg"
+                 alt="Green Apple Lemonade">
+
+            <h3>Green Apple Lemonade</h3>
+
+            <p>
+                Crisp green apple flavor combined
+                with sweet and tangy lemonade.
+            </p>
+
+            <div class="product-bottom">
+                <strong>₱65</strong>
+
+                <button type="button"
+                        onclick="addToCart('Green Apple Lemonade', 65)">
+                    Buy
+                </button>
+            </div>
+
+        </article>
+
+
+        <!-- 8 -->
+        <article class="product-card">
+
+            <img src="watermelon lemon.jpg"
+                 alt="Watermelon Lemonade">
+
+            <h3>Watermelon Lemonade</h3>
+
+            <p>
+                Juicy watermelon blended with
+                cool and refreshing lemonade.
+            </p>
+
+            <div class="product-bottom">
+                <strong>₱60</strong>
+
+                <button type="button"
+                        onclick="addToCart('Watermelon Lemonade', 60)">
+                    Buy
+                </button>
+            </div>
+
+        </article>
+
+
+        <!-- 9 -->
+        <article class="product-card">
+
+            <img src="passion fruit lemonade.jpg"
+                 alt="Passion Fruit Lemonade">
+
+            <h3>Passion Fruit Lemonade</h3>
+
+            <p>
+                A refreshing blend of sweet and tangy
+                passion fruit with fresh lemonade.
+            </p>
+
+            <div class="product-bottom">
+                <strong>₱75</strong>
+
+                <button type="button"
+                        onclick="addToCart('Passion Fruit Lemonade', 75)">
+                    Buy
+                </button>
+            </div>
+
+        </article>
+
+
+        <!-- 10 -->
+        <article class="product-card">
+
+            <img src="peachelemon.jpg"
+                 alt="Peach Lemonade">
+
+            <h3>Peach Lemonade</h3>
+
+            <p>
+                Smooth peach flavor combined with
+                bright and refreshing lemonade.
+            </p>
+
+            <div class="product-bottom">
+                <strong>₱70</strong>
+
+                <button type="button"
+                        onclick="addToCart('Peach Lemonade', 70)">
+                    Buy
+                </button>
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+
+    <div class="footer-logo">
+        Lemon<span>ade</span>
+    </div>
+
+    <div class="footer-line"></div>
+
+    <p>
+        Fresh lemonade made with love. 🍋
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

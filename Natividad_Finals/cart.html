@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cart | Lemonade Shop</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+    <nav>
+
+        <a href="index.html" class="logo">
+            Lemon<span>ade</span>
+        </a>
+
+        <div class="nav-links">
+
+            <a href="index.html">Home</a>
+            <a href="Products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+
+            <a href="cart.html" class="cart-btn">
+                🛒 Cart
+                <span id="cartCount">0</span>
+            </a>
+
+        </div>
+
+    </nav>
+</header>
+
+<main>
+
+<section class="section">
+
+    <div class="section-title">
+
+        <p class="small-title">
+            YOUR ORDER
+        </p>
+
+        <h2>
+            Your Cart 🛒
+        </h2>
+
+    </div>
+
+    <div class="cart-box">
+
+        <div id="cartItems">
+
+            <p class="empty-cart">
+                Your cart is empty.
+            </p>
+
+        </div>
+
+        <div class="cart-total">
+
+            <span>
+                Total:
+            </span>
+
+            <strong id="cartTotal">
+                ₱0
+            </strong>
+
+        </div>
+
+        <button
+            class="checkout-btn"
+            onclick="checkout()">
+
+            Checkout
+
+        </button>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+    <div class="footer-logo">
+        Lemon<span>ade</span>
+    </div>
+
+    <div class="footer-line"></div>
+
+    <p>
+        Fresh lemonade made with love. 🍋
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
