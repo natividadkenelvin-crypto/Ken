@@ -402,14 +402,13 @@ function checkout() {
     });
 
 
-    /* RECEIPT NUMBER */
+
 
     const receiptNumber =
         "LM-" + Date.now().toString().slice(-8);
 
 
-    /* DATE AND TIME */
-
+    
     const date =
         new Date();
 
@@ -424,7 +423,6 @@ function checkout() {
         });
 
 
-    /* CREATE RECEIPT */
 
     const receipt =
         document.createElement("div");
